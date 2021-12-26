@@ -40,7 +40,7 @@ header span {
 }
 
 .card:hover {
-    transform: rotate(2deg);
+    transform: rotate(1deg);
 }
 
 #splashIcon {
@@ -51,10 +51,29 @@ header span {
     display: grid;
     margin: auto;
     grid-template-columns: repeat(auto-fit, 380px);
-    grid-gap: 50px;
+    grid-gap: 15px;
     justify-content: center;
     margin-top: 300px;
 }
+
+#list2 {
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(auto-fit, 380px);
+    grid-gap: 15px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#list3 {
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(auto-fit, 380px);
+    grid-gap: 15px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
 
 @media only screen and (max-width: 600px) {
     #list {
